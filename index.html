@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario2</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Inscripcion</h1>
+    <hr>
+    <form >
+        <fieldset>
+            <legend>Entradas de usuario
+
+            </legend>
+            <div>
+                <label for="usuario"><b>Ingresa tu nombre completo: </b> </label>
+                <input id="usuario" type="text" name="usuario" placeholder="Nombre">
+            </div><br>
+                <label for="email"> <b>Ingresa tu email:</b> </label>
+                <input id="email" type="text" name="email" placeholder="e-mail">
+            </div><br><br>
+
+            <div>
+                <label for="especialidad"> <b>Especialidad:</b> </label>
+                <select name="especialidad">
+                    <option value="al">Alimentos</option>
+                    <option value="cont">Contabilidad</option>
+                    <option value="cons">Construccion</option>
+                    <option value="ele">Electronica</option>
+                    <option value="log">Logistica</option>
+                    <option value="pro">Programacion</option>
+                    <option value="x" selected="selected">Selecciona la especialidad...</option>
+                </select>
+            </div><br>
+
+            <div><b>Semestre:</b> <br>
+                <input type="checkbox" id="Primero" name="aficiones" value="Primero">
+                <label for="Primero">Primero</label><br>
+                <input type="checkbox" id="Segundo" name="aficiones" value="Segundo">
+                <label for="Segundo">Segundo</label><br>
+                <input type="checkbox" id="Tercero" name="aficiones" value="Tercero">
+                <label for="Tercero">Tercero</label><br>
+                <input type="checkbox" id="Cuarto" name="aficiones" value="Cuarto">
+                <label for="Cuarto">Cuarto</label><br>
+                <input type="checkbox" id="Quinto" name="aficiones" value="Quinto">
+                <label for="Quinto">Quinto</label><br>
+                <input type="checkbox" id="Sexto" name="aficiones" value="Sexto">
+                <label for="Sexto">Sexto</label><br>
+            </div><br>
+
+            <div> <b>Turno:</b> <br>
+                <input type="radio" id="Vespertino" name="turno" value="Vespertino">
+                <label for="Vespertino">Vespertino</label><br>
+                <input type="radio" id="Matutino" name="turno" value="Matutino">
+                <label for="Matutino">Matutino</label><br>
+            </div><br>
+
+            <div> <br>
+                <p>Estoy decuerdo con <a href="#">Terminos y condiciones</a></p>
+                <input type="submit" name="submit" value="Enviar informacion">
+                <input type="reset" name="reset" value="Limpiar formulario">
+            </div><br>
+        </fieldset>
+    </form>
+</body>
+</html>
